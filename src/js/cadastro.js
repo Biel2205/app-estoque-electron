@@ -21,4 +21,6 @@ function cadastrarProduto(event) {
 
 }
 
+console.log("função cadastrarProduto chamada") 
+
 formProduto.addEventListener("submit", cadastrarProduto)
