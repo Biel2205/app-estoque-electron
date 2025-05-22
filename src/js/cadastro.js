@@ -9,7 +9,7 @@ function cadastrarProduto(event) {
     var quantidade = document.getElementById("quantidade-produto").value
 
 
-
+     var imagem = document.getElementById("imagem-produto").value
 
 
     console.log(produto)
