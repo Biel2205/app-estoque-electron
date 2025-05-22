@@ -2,9 +2,9 @@
 const { app, BrowserWindow } = require('electron');
 
 // Função para criar a janela principal
-function createwindow(){
+function createwindow() {
 
-// Criar uma nova instancia do BrowserWindow
+    // Criar uma nova instancia do BrowserWindow
     const window = new BrowserWindow({
 
         width: 800, // Largura da janela
@@ -13,10 +13,10 @@ function createwindow(){
     })
 
     // Carregar o arquivo HTML na janela 
-    window.loadFile('src/pages/index.html');
+    window.loadFile('src/pages/cadastro.html');
 }
 
 // Evento que é acionado quando o Electron está pronto
-app.whenReady().then( () => {
+app.whenReady().then(() => {
     createwindow(); // Chama função de criar a janela
-} )
+})
